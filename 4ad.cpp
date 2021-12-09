@@ -1,4 +1,5 @@
 #include <iostream>
+using namespace std;
 
 int main() 
     {
@@ -14,6 +15,6 @@ int main()
         if (sumOfFirst3 == sumOfLast3)
             count++;
     }
-    std::cout << count << std::endl;
+    cout << count << endl;
     return 0;
 }
